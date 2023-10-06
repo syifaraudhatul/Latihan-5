@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "DM Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
+}
+nav{
+    background: white;
+    height: 70px;
+    width: 100%;
+}
+label.logo{
+    color: black;
+    font-size: 50px;
+    line-height: 80px;
+    padding: 0 80px;
+    font-weight: bold;
+}
+h1{
+    color: black;
+    font-size: 50px;
+    padding: 0 80px;
+}
+p{
+    font-size: 25px;
+    padding: 0 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+p {
+    color: grey;
+  }
+#more-info-button {
+    background-color: white; /* Latar belakang biru */
+    color: black; /* Teks putih */
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 255, 238) ;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#contact-us-button {
+    background-color: rgb(0, 255, 238); /* Latar belakang biru */
+    color: white; /* Teks putih */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
