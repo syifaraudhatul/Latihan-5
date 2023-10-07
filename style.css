@@ -33,8 +33,6 @@ nav {
     margin: auto;
     display: flex;
     line-height: 80px;
-    position: sticky;
-    position: -webkit-sticky;
     top: 0;
     background: white;
 }
@@ -92,7 +90,7 @@ img{
     border-radius: 10px;
     border: 3px solid white;
     margin-right: 20px;
-    width: 450px;
+    width: 500px;
     size: 100px;
 }
 button {
@@ -122,4 +120,109 @@ button {
     border: 2px solid white;
     float: left;
 }
+.kolom2ke1{
+    display: grid;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 20px;
+  }
+.kolom2ke2 {
+    display: grid;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 20px;
+}
+.kolom2ke3 {
+    display: grid;
+    text-align: center;
+    float: left;
+    justify-content: center;
+    margin: 5px;
+    padding: 20px;
+}
+table {
+    border: none;
+    position: relative;
+    justify-content: center;
+    background-color: aquamarine;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+    width: 50px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.Experts{
+    font-size: 35px;
+    padding-top: 0;
+    font-weight: bold;
+}
+.Clients{
+    font-size: 35px;
+    padding-top: 0;
+    font-weight: bold;
+}
+.Projects{
+    font-size: 35px;
+    padding-top: 0;
+    font-weight: bold;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 125px;
+    padding-right: 125px;
+    font-size: 30px;
+    padding: 0 10px;
+}
+.btn-3 {
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: aquamarine;
+    border: 2px solid white;
+    float: left;
+    position: relative;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff; /* Atur warna latar belakang sesuai kebutuhan Anda */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+    margin: 20px; /* Atur jarak antara kartu dengan kartu lainnya */
+    width: 300px; /* Atur lebar kartu */
+    height: 400px; /* Atur tinggi kartu */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-left: 38px;
+    margin-top: 45px;
+    border-radius: 0;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 0;
+}
+.desk {
+    font-size: 15px;
+}
+.judul {
+    font-size: 25px;
+}
