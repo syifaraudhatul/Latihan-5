@@ -17,7 +17,7 @@ body{
     position: relative;
 }
 .logo{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
     float: left;
     font-family: comic sans-serif;
@@ -197,32 +197,40 @@ table {
 .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
 }
 
 .card {
-    background-color: #fff; /* Atur warna latar belakang sesuai kebutuhan Anda */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
-    margin: 20px; /* Atur jarak antara kartu dengan kartu lainnya */
-    width: 300px; /* Atur lebar kartu */
-    height: 400px; /* Atur tinggi kartu */
+    background-color: #fff;
+    grid-template-columns: auto;
+    grid-template-rows: 175px 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 270px;
+    height: 325px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     margin-left: 38px;
-    margin-top: 45px;
     border-radius: 0;
+    padding-bottom: 10px;
 }
 
 .card img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 270px;
     object-fit: contain;
     border-radius: 0;
 }
 .desk {
     font-size: 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding: 10px;
+
 }
 .judul {
-    font-size: 25px;
+    padding-top: 10px;
+    font-size: 23px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
 }
