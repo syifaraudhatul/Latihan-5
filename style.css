@@ -90,20 +90,5 @@ img{
     border: 3px solid white;
     margin-right: 20px;
 }
-#more-info-button {
-    background-color: white; /* Latar belakang biru */
-    color: black; /* Teks putih */
-    padding: 10px 20px;
-    border: 2px solid rgb(0, 255, 238) ;
-    cursor: pointer;
-    margin-right: 10px;
-}
 
-#contact-us-button {
-    background-color: rgb(0, 255, 238); /* Latar belakang biru */
-    color: white; /* Teks putih */
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
 
