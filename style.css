@@ -3,11 +3,13 @@
     margin: 0px;
     padding: 0px;
     color: black;
+    font-family: "Montserrat", sans-serif;
 }
 body{
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "DM Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 .wrapper {
     width: 1100px;
@@ -15,12 +17,12 @@ body{
     position: relative;
 }
 .logo{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     float: left;
     font-family: comic sans-serif;
     color: black;
-    padding: 0 80px;
+    padding: 0 25px;
     font-weight: 700px;  
 }
 .menu{
@@ -48,8 +50,8 @@ nav ul li{
 }
 nav ul li a{
     color: black;
-    font-weight: bold;
     text-align: center;
+    font-size: 23px;
     padding: 0px 16px 0px 16px;
     text-decoration: none;
 }
@@ -68,27 +70,56 @@ section{
 }
 h1{
     color: black;
-    font-size: 40px;
-    padding: 0 80px;
+    font-size: 43px;
+    padding: 0 25px;
     font-weight: 700px;
     margin: 0 0 16px;
     font-weight: bold;
     float: left;
+    padding-top: 50px;
 }
 p {
     color: grey;
     margin: 0 0 16px 0;
-    font-size: 25px;
+    margin-bottom: 15px;
+    font-size: 23px;
     float: left;
-    padding: 0 80px;
+    padding: 0 25px;
     font-weight: 700px;
 }
 img{
-    max-width: 500px;
     float: right;
     border-radius: 10px;
     border: 3px solid white;
     margin-right: 20px;
+    width: 450px;
+    size: 100px;
 }
-
+button {
+    border: none;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 25%;
+    height: 15%;
+    margin-left: 25px;
+}
+.btn-1 {
+    text-align: center;
+    color: black;
+    border: 2px solid aquamarine;
+    background-color: white;
+    float: left;
+  }
+  
+.btn-2 {
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    background-color: aquamarine;
+    border: 2px solid white;
+    float: left;
+}
 
